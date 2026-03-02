@@ -1,7 +1,3 @@
-#  About Me:
-🔭 I’m currently working on Python Dev and ML systems that (hopefully) don’t overfit like my ambitions  <br>👯 I’m looking to collaborate on cool AI, backend projects, or anything that makes me think  <br>🤝 I’m looking for help with becoming 10x better at Python Dev & AI  <br>🌱 I’m currently learning FastAPI, GenAI, and how to debug things I just wrote  <br>⚡ Fun fact: I don’t stop until it runs
-
-
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/dkrapansh) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:dkrapansh@gmail.com) 
 
