@@ -1,5 +1,5 @@
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%23000000.svg?style=for-the-badge&logo=linkedin&logoColor=1E90FF)](www.linkedin.com/in/dkrapansh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%23000000.svg?style=for-the-badge&logo=linkedin&logoColor=1E90FF)](https://linkedin.com/in/dkrapansh)
 [![Gmail](https://img.shields.io/badge/Gmail-%23000000.svg?style=for-the-badge&logo=gmail&logoColor=1E90FF)](mailto:dkrapansh@gmail.com)
 
 ## 💻 Tech Stack:
