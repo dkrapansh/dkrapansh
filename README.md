@@ -20,7 +20,6 @@
 ![Keras](https://img.shields.io/badge/Keras-%23000000.svg?style=for-the-badge&logo=Keras&logoColor=1E90FF)
 ![OpenCV](https://img.shields.io/badge/opencv-%23000000.svg?style=for-the-badge&logo=opencv&logoColor=1E90FF)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-%23000000.svg?style=for-the-badge&logo=google&logoColor=1E90FF)
-![Docker](https://img.shields.io/badge/docker-%23000000.svg?style=for-the-badge&logo=docker&logoColor=1E90FF)
 ![Git](https://img.shields.io/badge/git-%23000000.svg?style=for-the-badge&logo=git&logoColor=1E90FF)
 ![GitHub](https://img.shields.io/badge/github-%23000000.svg?style=for-the-badge&logo=github&logoColor=1E90FF)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%23000000.svg?style=for-the-badge&logo=visual-studio-code&logoColor=1E90FF)
