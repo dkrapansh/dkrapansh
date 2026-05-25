@@ -28,9 +28,9 @@
 ![Tkinter](https://img.shields.io/badge/Tkinter-%23000000.svg?style=for-the-badge&logo=python&logoColor=1E90FF)
 ![REST API](https://img.shields.io/badge/FastAPI-%23000000.svg?style=for-the-badge&logo=fastapi&logoColor=1E90FF)
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=dkrapansh&theme=transparent&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=dkrapansh&theme=transparent&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=dkrapansh&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=dkrapansh&theme=dark&bg_color=0d1117&title_color=1E90FF&text_color=ffffff&icon_color=1E90FF&hide_border=true&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=dkrapansh&theme=dark&background=0d1117&ring=1E90FF&fire=1E90FF&currStreakLabel=1E90FF&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=dkrapansh&theme=dark&bg_color=0d1117&title_color=1E90FF&text_color=ffffff&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 ## 🐍 Contribution Snake:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/snake.svg" />
