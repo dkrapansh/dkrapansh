@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -13,20 +13,27 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: dkrapansh
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          outputs: dist/snake.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push snake to output branch
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Recolor snake SVG
+        run: |
+          sed -i 's/#ebedf0/#111111/g' dist/snake.svg
+          sed -i 's/#9be9a8/#0a1628/g' dist/snake.svg
+          sed -i 's/#40c463/#0f5cbf/g' dist/snake.svg
+          sed -i 's/#30a14e/#1565C0/g' dist/snake.svg
+          sed -i 's/#216e39/#1E90FF/g' dist/snake.svg
+          sed -i 's/#161b22/#0d1117/g' dist/snake.svg
+          sed -i 's/fill="white"/fill="#1E90FF"/g' dist/snake.svg
+          sed -i 's/stroke="white"/stroke="#1E90FF"/g' dist/snake.svg
+
+      - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
-          publish_dir: ./dist
+          publish_dir: dist
           force_orphan: true
