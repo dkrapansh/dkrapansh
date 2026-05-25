@@ -4,33 +4,29 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     permissions:
       contents: write
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - uses: actions/checkout@v3
+
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: dkrapansh
           outputs: |
-            dist/snake.svg
-          color_snake: "#1E90FF"
-          color_dot_empty: "#111111"
-          color_dot_1: "#0a1628"
-          color_dot_2: "#0d2a50"
-          color_dot_3: "#0f5cbf"
-          color_dot_4: "#1E90FF"
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push to output branch
+      - name: Push snake to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
-          publish_dir: dist
+          publish_dir: ./dist
           force_orphan: true
