@@ -33,16 +33,7 @@ Actively looking for opportunities. Reach out to me on:
 
 # 📊 GitHub Stats:
 <div align="center">
-
-![](https://github-readme-beta-seven.vercel.app/api/top-langs/?username=dkrapansh&layout=compact&hide_border=true&bg_color=0d1117&title_color=a985ff&text_color=ffffff&icon_color=a985ff) ![](https://nirzak-streak-stats.vercel.app/?user=dkrapansh&hide_border=true&background=0d1117&ring=a985ff&fire=a985ff&currStreakLabel=a985ff&sideLabels=c9b0ff&currStreakNum=ffffff&sideNums=ffffff&dates=0d1117)
-</div>
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/github-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/github-snake.svg" />
-  </picture>
+  <img src="https://streak-stats.demolab.com/?user=dkrapansh&hide_border=true&background=0d1117&ring=1E90FF&fire=1E90FF&currStreakLabel=1E90FF&sideLabels=5ab4ff&currStreakNum=ffffff&sideNums=ffffff&dates=ffffff&stroke=1E90FF" />
 </div>
 
----
 [![](https://visitcount.itsvg.in/api?id=dkrapansh&icon=0&color=0)](https://visitcount.itsvg.in)
