@@ -1,11 +1,13 @@
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%23111111.svg?style=for-the-badge&logo=linkedin&logoColor=1E90FF)]([(https://linkedin.com/in/dkrapansh))
-[![Gmail](https://img.shields.io/badge/Gmail-%23111111.svg?style=for-the-badge&logo=gmail&logoColor=1E90FF)](mailto:dkrapansh@gmail.com)
+# About Me:
+CSE graduate specializing in Python development and AI Engineering.
+Actively looking for opportunities. Reach out to me on:
 
-## 💻 Tech Stack:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%23111111.svg?style=for-the-badge&logo=linkedin&logoColor=1E90FF)](https://linkedin.com/in/dkrapansh)
+[![Gmail](https://img.shields.io/badge/email-%23111111.svg?style=for-the-badge&logo=gmail&logoColor=1E90FF)](mailto:dkrapansh@gmail.com)
+
+# 💻 Tech Stack:
 
 ![Python](https://img.shields.io/badge/python-%23000000.svg?style=for-the-badge&logo=python&logoColor=1E90FF)
-![C++](https://img.shields.io/badge/c++-%23000000.svg?style=for-the-badge&logo=c%2B%2B&logoColor=1E90FF)
 ![SQL](https://img.shields.io/badge/SQL-%23000000.svg?style=for-the-badge&logo=sqlite&logoColor=1E90FF)
 ![HTML5](https://img.shields.io/badge/html5-%23000000.svg?style=for-the-badge&logo=html5&logoColor=1E90FF)
 ![CSS3](https://img.shields.io/badge/css3-%23000000.svg?style=for-the-badge&logo=css3&logoColor=1E90FF)
@@ -20,25 +22,28 @@
 ![Keras](https://img.shields.io/badge/Keras-%23000000.svg?style=for-the-badge&logo=Keras&logoColor=1E90FF)
 ![OpenCV](https://img.shields.io/badge/opencv-%23000000.svg?style=for-the-badge&logo=opencv&logoColor=1E90FF)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-%23000000.svg?style=for-the-badge&logo=google&logoColor=1E90FF)
+![Docker](https://img.shields.io/badge/docker-%23000000.svg?style=for-the-badge&logo=docker&logoColor=1E90FF)
+![FastAPI](https://img.shields.io/badge/FastAPI-%23000000.svg?style=for-the-badge&logo=fastapi&logoColor=1E90FF)
 ![Git](https://img.shields.io/badge/git-%23000000.svg?style=for-the-badge&logo=git&logoColor=1E90FF)
 ![GitHub](https://img.shields.io/badge/github-%23000000.svg?style=for-the-badge&logo=github&logoColor=1E90FF)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%23000000.svg?style=for-the-badge&logo=visual-studio-code&logoColor=1E90FF)
 ![Jupyter](https://img.shields.io/badge/Jupyter-%23000000.svg?style=for-the-badge&logo=Jupyter&logoColor=1E90FF)
 ![PyCharm](https://img.shields.io/badge/PyCharm-%23000000.svg?style=for-the-badge&logo=pycharm&logoColor=1E90FF)
 ![Tkinter](https://img.shields.io/badge/Tkinter-%23000000.svg?style=for-the-badge&logo=python&logoColor=1E90FF)
-![REST API](https://img.shields.io/badge/FastAPI-%23000000.svg?style=for-the-badge&logo=fastapi&logoColor=1E90FF)
+
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=dkrapansh&theme=dark&bg_color=0d1117&title_color=1E90FF&text_color=ffffff&icon_color=1E90FF&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=dkrapansh&theme=dark&background=0d1117&ring=1E90FF&fire=1E90FF&currStreakLabel=1E90FF&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=dkrapansh&theme=dark&bg_color=0d1117&title_color=1E90FF&text_color=ffffff&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-## 🐍 Contribution Snake:
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/snake.svg" />
-</picture>
+<div align="center">
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=dkrapansh&layout=compact&hide_border=true&bg_color=0d1117&title_color=1E90FF&text_color=ffffff&icon_color=1E90FF) ![](https://nirzak-streak-stats.vercel.app/?user=dkrapansh&hide_border=true&background=0d1117&ring=1E90FF&fire=1E90FF&currStreakLabel=1E90FF&sideLabels=5ab4ff&currStreakNum=ffffff&sideNums=ffffff&dates=0d1117)
+
+</div>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/github-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dkrapansh/dkrapansh/output/github-snake.svg" />
+  </picture>
+</div>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=dkrapansh&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
