@@ -1,39 +1,45 @@
-name: Generate Snake Animation
-
+name: GitHub Snake Game
 on:
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-      - uses: Platane/snk@v3
+      - name: Generate GitHub Contributions Snake Animations
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: dkrapansh
-          outputs: dist/snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#1E90FF&color_dots=#111111,#0a1628,#0d2a50,#0f5cbf,#1E90FF
+            dist/github-snake-dark.svg?color_snake=#1E90FF&color_dots=#111111,#0a1628,#0d2a50,#0f5cbf,#1E90FF&palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Recolor snake SVG
+      - name: Patch empty dot color in SVGs
         run: |
-          sed -i 's/#ebedf0/#111111/g' dist/snake.svg
-          sed -i 's/#9be9a8/#0a1628/g' dist/snake.svg
-          sed -i 's/#40c463/#0f5cbf/g' dist/snake.svg
-          sed -i 's/#30a14e/#1565C0/g' dist/snake.svg
-          sed -i 's/#216e39/#1E90FF/g' dist/snake.svg
-          sed -i 's/#161b22/#0d1117/g' dist/snake.svg
-          sed -i 's/fill="white"/fill="#1E90FF"/g' dist/snake.svg
-          sed -i 's/stroke="white"/stroke="#1E90FF"/g' dist/snake.svg
+          sed -i 's/#ebedf0/#111111/g' dist/github-snake.svg
+          sed -i 's/#161b22/#111111/g' dist/github-snake-dark.svg
+          sed -i 's/var(--color-calendar-graph-day-bg)/#111111/g' dist/github-snake.svg
+          sed -i 's/var(--color-calendar-graph-day-bg)/#111111/g' dist/github-snake-dark.svg
+          sed -i 's/fill="white"/fill="#1E90FF"/g' dist/github-snake.svg
+          sed -i 's/fill="white"/fill="#1E90FF"/g' dist/github-snake-dark.svg
+          sed -i 's/stroke="white"/stroke="#1E90FF"/g' dist/github-snake.svg
+          sed -i 's/stroke="white"/stroke="#1E90FF"/g' dist/github-snake-dark.svg
 
-      - uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
           publish_branch: output
-          publish_dir: dist
-          force_orphan: true
+          commit_message: "Update snake animation [skip ci]"
