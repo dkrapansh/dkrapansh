@@ -34,8 +34,7 @@ Actively looking for opportunities. Reach out to me on:
 # 📊 GitHub Stats:
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=dkrapansh&layout=compact&hide_border=true&bg_color=0d1117&title_color=1E90FF&text_color=ffffff&icon_color=1E90FF) ![](https://nirzak-streak-stats.vercel.app/?user=dkrapansh&hide_border=true&background=0d1117&ring=1E90FF&fire=1E90FF&currStreakLabel=1E90FF&sideLabels=5ab4ff&currStreakNum=ffffff&sideNums=ffffff&dates=0d1117)
-
+![](https://github-readme-beta-seven.vercel.app/api/top-langs/?username=ishpeeedy&layout=compact&hide_border=true&bg_color=0d1117&title_color=a985ff&text_color=ffffff&icon_color=a985ff) ![](https://nirzak-streak-stats.vercel.app/?user=ishpeeedy&hide_border=true&background=0d1117&ring=a985ff&fire=a985ff&currStreakLabel=a985ff&sideLabels=c9b0ff&currStreakNum=ffffff&sideNums=ffffff&dates=0d1117)
 </div>
 <div align="center">
   <picture>
